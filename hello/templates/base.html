@@ -39,6 +39,24 @@
     width: 23% !important;
 }
 
+.django_instagram_media_wall_item {
+    width:  25%; height: auto;
+    float: left;
+    position: relative
+}
+
+.django_instagram_media_wall_item img {
+    width: 100%; height: auto;
+    float: left
+}
+
+.django_instagram_media_wall_item a span {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    color: #F3F3F3; background: #222222; opacity: 0.8;
+    z-index: 50
+}
+
 </style>{% endblock %}
 </head>
 <body>
@@ -86,7 +104,91 @@
 
 		<div class="col-sm-4" style="background-color:white;">
 			<h3>INSTAGRAM</h3>
-			
+	<link type="text/css" rel="stylesheet" href="/static/django_instagram/css/wall.css">
+
+
+    <div id="django_instagram_media_wall">
+        
+            <div class="django_instagram_media_wall_item">
+                <a title="" target="_blank" href="https://www.instagram.com/p/BFDUb79r_zZ/">
+                    <img src="https://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/13116720_1729274790617986_49303912_n.jpg?ig_cache_key=MTI0MzkyNzgwMjgyNjE5NDEzNw%3D%3D.2">
+                    <span></span>
+                </a>
+            </div>
+        
+            <div class="django_instagram_media_wall_item">
+                <a title="" target="_blank" href="https://www.instagram.com/p/BFDUP1TL_zL/">
+                    <img src="https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13166925_1685946058334390_994784782_n.jpg?ig_cache_key=MTI0MzkyNjk3MTAzNjk5MDY2Nw%3D%3D.2">
+                    <span></span>
+                </a>
+            </div>
+        
+            <div class="django_instagram_media_wall_item">
+                <a title="" target="_blank" href="https://www.instagram.com/p/BFDULgqL_zE/">
+                    <img src="https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13116639_906787059434278_470130757_n.jpg?ig_cache_key=MTI0MzkyNjY3Mzk5NjM4MTM4MA%3D%3D.2">
+                    <span></span>
+                </a>
+            </div>
+        
+            <div class="django_instagram_media_wall_item">
+                <a title="" target="_blank" href="https://www.instagram.com/p/BFDUG1jL_y_/">
+                    <img src="https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13129769_213151262404242_2099832610_n.jpg?ig_cache_key=MTI0MzkyNjM1MjgzMDEzNTQ4Nw%3D%3D.2">
+                    <span></span>
+                </a>
+            </div>
+        
+            <div class="django_instagram_media_wall_item">
+                <a title="" target="_blank" href="https://www.instagram.com/p/BFDUAsPr_y3/">
+                    <img src="https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13129246_1737528306529236_1466283063_n.jpg?ig_cache_key=MTI0MzkyNTkzMDUyMjQ0MjkzNQ%3D%3D.2">
+                    <span></span>
+                </a>
+            </div>
+        
+            <div class="django_instagram_media_wall_item">
+                <a title="" target="_blank" href="https://www.instagram.com/p/BFDT8Gir_yu/">
+                    <img src="https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13166908_1011121148975326_128177319_n.jpg?ig_cache_key=MTI0MzkyNTYxNTE2MTExMzc3NA%3D%3D.2">
+                    <span></span>
+                </a>
+            </div>
+        
+            <div class="django_instagram_media_wall_item">
+                <a title="" target="_blank" href="https://www.instagram.com/p/BFDT3fcL_yk/">
+                    <img src="https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13129972_1744602995776761_453502733_n.jpg?ig_cache_key=MTI0MzkyNTI5ODI5ODIyMzc4MA%3D%3D.2">
+                    <span></span>
+                </a>
+            </div>
+        
+            <div class="django_instagram_media_wall_item">
+                <a title="" target="_blank" href="https://www.instagram.com/p/BFA_oXbL_8f/">
+                    <img src="https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13188186_1071278902937783_1783117688_n.jpg?ig_cache_key=MTI0MzI3MzM0ODAxNTcxODE3NQ%3D%3D.2">
+                    <span></span>
+                </a>
+            </div>
+        
+            <div class="django_instagram_media_wall_item">
+                <a title="" target="_blank" href="https://www.instagram.com/p/BFA92Ryr_6q/">
+                    <img src="https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13126673_603919023107635_1946769462_n.jpg?ig_cache_key=MTI0MzI2NTUwNzk0NzE4Mzc4Ng%3D%3D.2">
+                    <span></span>
+                </a>
+            </div>
+        
+            <div class="django_instagram_media_wall_item">
+                <a title="" target="_blank" href="https://www.instagram.com/p/BFA9zHlL_6n/">
+                    <img src="https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/13150882_1702098133363382_1070611485_n.jpg?ig_cache_key=MTI0MzI2NTI5MDgyNDg0MjkxOQ%3D%3D.2">
+                    <span></span>
+                </a>
+            </div>
+        
+    </div>
+    <script src="/static/django_instagram/js/masonry/masonry.pkgd.min.js"></script>
+    <script>
+        $.ready(function() {
+            var container = document.querySelector('#django_instagram_media_wall');
+            var masonry = new Masonry(container, {
+                itemSelector: '.django_instagram_media_wall_item'
+            });
+        });
+    </script>
 
 
     	</div>
