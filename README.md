@@ -1,4 +1,4 @@
-# python-getting-started
+# deploy-django-on-heroku
 
 A barebones Python app, which can easily be deployed to Heroku.
 
